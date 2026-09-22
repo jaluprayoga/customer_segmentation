@@ -2,24 +2,26 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![nbviewer](https://img.shields.io/badge/Render%20with-nbviewer-orange.svg?logo=jupyter&logoColor=white)](https://nbviewer.org/github/jaluprayoga/customer_segmentation/blob/main/notebook.ipynb)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.3%2B-F7931E.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Seaborn](https://img.shields.io/badge/Seaborn-0.12%2B-4c72b0.svg)](https://seaborn.pydata.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-5.18%2B-3F4F75.svg?logo=plotly&logoColor=white)](https://plotly.com/)
 
 Proyek *Data Science & Customer Analytics* *end-to-end* untuk mengidentifikasi persona perilaku belanja pelanggan pada platform *e-commerce* ritel berbasis di Inggris (United Kingdom) menggunakan kombinasi **RFM Analysis (Recency, Frequency, Monetary)** dan arsitektur pemodelan **Two-Tier Customer Segmentation (Isolation Forest + K-Means Clustering)**.
 
+> 🌐 **Pratinjau Notebook Online:** Jika GitHub mengalami limit render saat membuka notebook, Anda dapat melihat pratinjau lengkap notebook secara langsung melalui **[nbviewer (Klik di sini)](https://nbviewer.org/github/jaluprayoga/customer_segmentation/blob/main/notebook.ipynb)**.
+
 ---
 
 ## 📌 Daftar Isi
 1. [Ringkasan Proyek & Latar Belakang](#-ringkasan-proyek--latar-belakang)
 2. [Arsitektur Metodologi (Two-Tier Segmentation)](#-arsitektur-metodologi-two-tier-segmentation)
-3. [Struktur Repositori](#-struktur-repositori)
-4. [Panduan Instalasi & Penggunaan Cepat](#-panduan-instalasi--penggunaan-cepat)
-5. [Modul Kustom Visualisasi (`utils/`)](#-modul-kustom-visualisasi-utils)
-6. [Temuan Utama & Profil Klaster Bisnis](#-temuan-utama--profil-klaster-bisnis)
+3. [Panduan Instalasi & Penggunaan Cepat](#-panduan-instalasi--penggunaan-cepat)
+4. [Modul Kustom Visualisasi (`utils/`)](#-modul-kustom-visualisasi-utils)
+5. [Temuan Utama & Profil Klaster Bisnis](#-temuan-utama--profil-klaster-bisnis)
    - [Model Global (Seluruh Pelanggan)](#1-model-global-seluruh-pelanggan-k--3--tier-1-outliers)
    - [Model Khusus Pasar Internasional (Non-UK)](#2-model-khusus-pasar-internasional-non-uk-k--4--tier-1-outliers)
-7. [Rekomendasi Strategi Pemasaran & Ekspor](#-rekomendasi-strategi-pemasaran--ekspor)
+6. [Rekomendasi Strategi Pemasaran & Ekspor](#-rekomendasi-strategi-pemasaran--ekspor)
 
 ---
 
