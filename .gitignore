@@ -1,0 +1,99 @@
+# ==========================================
+# Python & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Jupyter Notebooks & Checkpoints
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+
+# ==========================================
+# IDE & Code Editors
+# ==========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Environment Variables & Credentials
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# Operating System Artifacts
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Datasets & Large Data Files (Strictly Ignored)
+# ==========================================
+# All raw dataset formats are strictly ignored to prevent pushing large files (>20MB) to Git.
+# Run 'python download_dataset.py' to download the dataset locally after cloning.
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.zip
+*.tar.gz
+*.gz
+*.tmp
+*.bak
+
+# Preserve the dataset folder structure on GitHub:
+!dataset/
+!dataset/.gitkeep
+
+# ==========================================
+# Scratch Scripts & System Logs
+# ==========================================
+*.log
+.system_generated/

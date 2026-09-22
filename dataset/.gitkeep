@@ -1,0 +1,4 @@
+# Placeholder to keep the 'dataset/' folder structure in git.
+# The raw dataset file (Online Retail.xlsx, ~23.7 MB) is excluded via .gitignore.
+# To download the dataset locally, run:
+#     python download_dataset.py
